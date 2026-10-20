@@ -34,7 +34,8 @@ directory to its WSL path and run these commands in WSL:
 
 ```bash
 cd /mnt/c/Users/fan/.copilot/skills
-gh repo create FanWangEcon/copilot-skills --public --source=. --remote=origin --push
+gh repo create FanWangEcon/copilot-skills --public
+git push -u origin main
 ```
 
 If that repository already exists, inspect it before setting a remote or pushing;
