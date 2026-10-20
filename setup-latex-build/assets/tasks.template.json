@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build main LaTeX document externally",
+      "type": "process",
+      "command": "__GIT_BASH__",
+      "args": ["--noprofile", "--norc", "__SCRIPT_PATH__", "--once"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "runOptions": {"instanceLimit": 1},
+      "presentation": {"reveal": "always", "panel": "dedicated"},
+      "problemMatcher": []
+    }
+  ]
+}

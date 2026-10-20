@@ -1,0 +1,12 @@
+{
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.latex.autoClean.run": "never",
+  "latex-workshop.latex.external.build.command": "__GIT_BASH__",
+  "latex-workshop.latex.external.build.args": [
+    "--noprofile",
+    "--norc",
+    "__SCRIPT_PATH__",
+    "--once"
+  ],
+  "latex-workshop.latex.outDir": "__OUTPUT_DIR__"
+}
